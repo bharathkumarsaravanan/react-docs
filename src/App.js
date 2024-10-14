@@ -8,11 +8,13 @@ import UseIdHook from './hooks/UseIdHook/UseIdHook';
 import UseMemoHook from './hooks/UseMemoHook/UseMemoHook';
 import UseFormActionHook from './hooks/UseFormStatusHook/UseFormStatus';
 
+import CreatePortal from './apis/createPortal';
+
 function App() {
   return (
     <div className="App">
       <h1>React App</h1>
-      <UseActionStateHook />
+      <CreatePortal />
     </div>
   );
 }
