@@ -5,12 +5,13 @@ import UseContextHook from './hooks/UseContextHook/UseContextHook';
 import UseEffectHook from './hooks/UseEffectHook/UseEffectHook';
 import UseDebugValueHook from './hooks/UseDebugValueHook/UseDebugValueHook';
 import UseIdHook from './hooks/UseIdHook/UseIdHook';
+import UseMemoHook from './hooks/UseMemoHook/UseMemoHook';
 
 function App() {
   return (
     <div className="App">
       <h1>React App</h1>
-      <UseIdHook />
+      <UseMemoHook />
     </div>
   );
 }
