@@ -9,12 +9,13 @@ import UseMemoHook from './hooks/UseMemoHook/UseMemoHook';
 import UseFormActionHook from './hooks/UseFormStatusHook/UseFormStatus';
 import UseTransitionHook from './hooks/UseTransitionHook/UseTransitionHook';
 import UseDeferredValueHook from './hooks/UseDeferredValueHook /UseDeferredValueHook';
+import UseStateHook from './hooks/UseStateHook/UseStateHook';
 
 function App() {
   return (
     <div className="App">
       <h1>React App</h1>
-      <UseDeferredValueHook />
+      <UseStateHook />
     </div>
   );
 }
