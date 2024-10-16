@@ -34,6 +34,6 @@ export default UseDebugValueHook;
 
 Here i have created the custom hook called useCustomDebugValue. This is mandatory to create a custom hook to use this debug hook. By passing the online state to that hook it will pass it to useDebugValue hook and will be visible in the react dev tools.
 
-![Screenshot](../Assets/Hooks/useDebugValue.jpg "page screenshot")
+![Screenshot](../Assets/Hooks/useDebugValue.jpg "page screenshot") 
 
 Here its showing in the hooks section names as State.

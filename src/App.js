@@ -11,12 +11,13 @@ import UseTransitionHook from './hooks/UseTransitionHook/UseTransitionHook';
 import UseDeferredValueHook from './hooks/UseDeferredValueHook /UseDeferredValueHook';
 import UseStateHook from './hooks/UseStateHook/UseStateHook';
 import UseRefHook from './hooks/UseRefHook/UseRefHook';
+import UseInsertionEffectExample from './hooks/UseInsertionEffect/UseInsertionEffect';
 
 function App() {
   return (
     <div className="App">
       <h1>React App</h1>
-      <UseRefHook />
+      <UseInsertionEffectExample />
     </div>
   );
 }
